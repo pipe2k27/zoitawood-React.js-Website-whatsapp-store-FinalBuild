@@ -79,10 +79,6 @@ h1 {
 }
 
 /* banner 1 component */
-.banner1 {
-  display: flex;
-  justify-content: center;
-}
 
 .tabla-banner {
   width: 80%;
