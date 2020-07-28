@@ -85,8 +85,8 @@ h1 {
 }
 
 .tabla-banner {
-  width: 500px;
-  max-width: 80%;
+  width: 80%;
+  max-width: 500px;
 }
 
 /* banner zoita  */
