@@ -7,7 +7,6 @@ export default function Banner1() {
         src="./images/banner-1.jpg"
         alt="tabla de asado"
         className="tabla-banner"
-        data-aos="fade-up"
       ></img>
     </div>
   );
