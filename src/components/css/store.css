@@ -1,0 +1,31 @@
+.store-box {
+  display: flex;
+  justify-content: center;
+}
+.card-holder {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  width: 900px;
+}
+
+@media (max-width: 928px) {
+  .card-holder {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    width: 610px;
+  }
+}
+
+@media (max-width: 620px) {
+  .card-holder {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    width: 300px;
+  }
+}

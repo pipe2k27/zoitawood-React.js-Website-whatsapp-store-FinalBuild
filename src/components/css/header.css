@@ -1,0 +1,124 @@
+/* header component */
+
+.header {
+  display: flex;
+  grid-template-columns: repeat(2, auto);
+
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(20, 20, 20);
+  height: 70px;
+}
+
+.logo {
+  position: absolute;
+  height: 70px;
+  left: 50%;
+  transform: translateX(-50%);
+  justify-self: start;
+}
+
+.logo-word {
+  height: 30px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.navbar {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 10px;
+  font-size: 1.2rem;
+  transition: all 0.3s ease-out;
+}
+
+.nav-element {
+  cursor: pointer;
+  padding: 7px;
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  height: 20px;
+  margin: auto 0;
+}
+.nav-element:hover {
+  background-color: rgb(36, 36, 36);
+  border-radius: 5px;
+  color: rgb(137, 137, 255);
+}
+
+.fa-bars {
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  font-size: 1.7rem;
+  top: 50%;
+  transform: translateY(-50%);
+  display: none;
+}
+@media (min-width: 900px) {
+  .navbar {
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .header {
+    display: block;
+    height: 70px;
+    position: relative;
+  }
+
+  .logo-word {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .navbar {
+    display: flex;
+    position: absolute;
+    top: 70px;
+    flex-direction: column;
+    left: -150%;
+    width: 100%;
+    transition: left 0.5s ease-out, background-color 0.5s ease-out,
+      color 1s ease-out;
+    color: black;
+  }
+
+  .navbar.drop {
+    top: 70px;
+    left: 0;
+    top: 70px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    transition: left 0.5s ease-out, background-color 0.5s ease-out,
+      color 1s ease-out;
+  }
+
+  .colapse {
+    /* display: none; */
+  }
+
+  .fa-bars {
+    display: initial;
+  }
+
+  .nav-element {
+    height: 45px;
+  }
+}
+
+@media (max-width: 600px) {
+  .logo {
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .logo-word {
+    height: 25px;
+  }
+}

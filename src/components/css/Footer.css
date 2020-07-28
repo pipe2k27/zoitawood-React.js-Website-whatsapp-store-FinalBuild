@@ -1,0 +1,15 @@
+.footer {
+  background-color: rgb(68, 68, 68);
+}
+
+.footer-logo {
+  width: 100px;
+}
+
+.instagram {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
