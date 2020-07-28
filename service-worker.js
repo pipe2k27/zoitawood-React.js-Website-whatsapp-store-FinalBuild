@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/zoitawood/precache-manifest.cc4f544d65b6fff49e1bd71ca9538d14.js"
+  "/zoitawood/precache-manifest.0c490c34e53a001fec9466028f214f32.js"
 );
 
 self.addEventListener('message', (event) => {

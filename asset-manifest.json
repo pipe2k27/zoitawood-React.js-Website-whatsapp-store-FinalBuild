@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/zoitawood/static/css/main.2ff8e7c3.chunk.css",
-    "main.js": "/zoitawood/static/js/main.2cadbaf4.chunk.js",
-    "main.js.map": "/zoitawood/static/js/main.2cadbaf4.chunk.js.map",
+    "main.js": "/zoitawood/static/js/main.97d06d2f.chunk.js",
+    "main.js.map": "/zoitawood/static/js/main.97d06d2f.chunk.js.map",
     "runtime-main.js": "/zoitawood/static/js/runtime-main.df89059d.js",
     "runtime-main.js.map": "/zoitawood/static/js/runtime-main.df89059d.js.map",
     "static/js/2.e3eb26f6.chunk.js": "/zoitawood/static/js/2.e3eb26f6.chunk.js",
     "static/js/2.e3eb26f6.chunk.js.map": "/zoitawood/static/js/2.e3eb26f6.chunk.js.map",
     "index.html": "/zoitawood/index.html",
-    "precache-manifest.cc4f544d65b6fff49e1bd71ca9538d14.js": "/zoitawood/precache-manifest.cc4f544d65b6fff49e1bd71ca9538d14.js",
+    "precache-manifest.0c490c34e53a001fec9466028f214f32.js": "/zoitawood/precache-manifest.0c490c34e53a001fec9466028f214f32.js",
     "service-worker.js": "/zoitawood/service-worker.js",
     "static/css/main.2ff8e7c3.chunk.css.map": "/zoitawood/static/css/main.2ff8e7c3.chunk.css.map",
     "static/js/2.e3eb26f6.chunk.js.LICENSE.txt": "/zoitawood/static/js/2.e3eb26f6.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.df89059d.js",
     "static/js/2.e3eb26f6.chunk.js",
     "static/css/main.2ff8e7c3.chunk.css",
-    "static/js/main.2cadbaf4.chunk.js"
+    "static/js/main.97d06d2f.chunk.js"
   ]
 }
