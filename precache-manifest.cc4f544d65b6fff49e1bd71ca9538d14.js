@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a18b39ef1ed75cd8c1da3508ce9f7d9b",
+    "revision": "02fb6c76e0da0e13ce3d02d2ec35ee5c",
     "url": "/zoitawood/index.html"
   },
   {
-    "revision": "75819ca74996909db8b2",
+    "revision": "fcc290d7a3c967070e3f",
     "url": "/zoitawood/static/css/main.2ff8e7c3.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zoitawood/static/js/2.e3eb26f6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "75819ca74996909db8b2",
-    "url": "/zoitawood/static/js/main.6f48c7d3.chunk.js"
+    "revision": "fcc290d7a3c967070e3f",
+    "url": "/zoitawood/static/js/main.2cadbaf4.chunk.js"
   },
   {
     "revision": "6c108b96a3e5983a8250",
