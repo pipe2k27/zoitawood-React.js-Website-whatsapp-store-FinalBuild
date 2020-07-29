@@ -29,3 +29,9 @@
     width: 300px;
   }
 }
+
+@media (max-width: 440px) {
+  .card-holder {
+    width: 100%;
+  }
+}

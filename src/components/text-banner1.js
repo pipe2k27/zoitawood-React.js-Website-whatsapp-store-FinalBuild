@@ -19,8 +19,15 @@ export default function TextBanner1() {
         href="https://api.whatsapp.com/send?phone=5491168220014&text=Buenas,%20te%20puedo%20hacer%20un%20pedido:%20"
         className="hace order"
       >
-        <i className="fas fa-bolt"></i> Hacé tu consulta!{" "}
+        <i className="fas fa-bolt"></i> ir a la Tienda!{" "}
         <i className="fas fa-bolt"></i>
+      </a>
+
+      <a
+        href="https://api.whatsapp.com/send?phone=5491168220014&text=Buenas,%20te%20puedo%20hacer%20un%20pedido:%20"
+        className="hace order"
+      >
+        Hacé tu consulta! <i className="fab fa-whatsapp"></i>
       </a>
     </div>
   );
