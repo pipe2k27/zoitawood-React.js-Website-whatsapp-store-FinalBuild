@@ -9,11 +9,20 @@ export default function Card(props) {
   return (
     <div className="card">
       <div className="card-top">
-        <img className="pic" src={`./images/${image}`}></img>
+        <img
+          className="pic"
+          src={process.env.PUBLIC_URL + `/images/${image}`}
+        ></img>
       </div>
       <div className="card-bottom">
         <p className="product-name">{name}</p>
+        <i class="fas fa-store"></i>
+        <div className="line"></div>
         <p className="size">{size}</p>
+        <img
+          className="mini"
+          src={process.env.PUBLIC_URL + `/images/logo-mini.png`}
+        ></img>
         <div className="price-box">
           <p className="price">${price}</p>
         </div>

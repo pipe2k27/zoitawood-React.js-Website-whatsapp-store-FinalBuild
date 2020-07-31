@@ -4,7 +4,7 @@ export default function Banner1() {
   return (
     <div className="banner1">
       <img
-        src="./images/banner-1.jpg"
+        src={process.env.PUBLIC_URL + "/images/banner-1.jpg"}
         alt="tabla de asado"
         className="tabla-banner"
       ></img>

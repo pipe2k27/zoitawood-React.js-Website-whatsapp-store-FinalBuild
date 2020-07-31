@@ -4,7 +4,10 @@ export default function TextBanner1() {
   return (
     <div>
       <div className="text-banner1">
-        <img src="./images/banner-3.jpg" className="banner2"></img>
+        <img
+          src={process.env.PUBLIC_URL + "/images/banner-3.jpg"}
+          className="banner2"
+        ></img>
       </div>
 
       <h1>Pasion por la madera</h1>
@@ -17,7 +20,7 @@ export default function TextBanner1() {
       </p>
       <a
         href="https://api.whatsapp.com/send?phone=5491168220014&text=Buenas,%20te%20puedo%20hacer%20un%20pedido:%20"
-        className="hace order"
+        className="hace order tap"
       >
         <i className="fas fa-bolt"></i> ir a la Tienda!{" "}
         <i className="fas fa-bolt"></i>
@@ -25,7 +28,7 @@ export default function TextBanner1() {
 
       <a
         href="https://api.whatsapp.com/send?phone=5491168220014&text=Buenas,%20te%20puedo%20hacer%20un%20pedido:%20"
-        className="hace order"
+        className="hace order tap"
       >
         Hacé tu consulta! <i className="fab fa-whatsapp"></i>
       </a>

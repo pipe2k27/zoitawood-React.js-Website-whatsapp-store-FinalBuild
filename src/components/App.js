@@ -5,6 +5,7 @@ import TextBanner1 from "./text-banner1";
 import Store from "./store";
 import Wood from "./Wood.js";
 import Footer from "./Footer.js";
+import "./css/styles.css";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <Banner1 />
       <Store />
       <img
-        src="./images/blanco+texto.png"
+        src={process.env.PUBLIC_URL + "/images/blanco+texto.png"}
         className="banner-zoita"
         alt="zoita wood"
       />

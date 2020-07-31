@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: europa, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+h1 {
+  font-family: bebas-neue-by-fontfabric, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3rem;
+}
+
+/* text banner 1 component*/
+.text-banner1 {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro {
+  font-size: 1.2rem;
+  width: 700px;
+  max-width: 90%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.banner2 {
+  width: 100%;
+  max-width: 1200px;
+  object-fit: cover;
+  max-height: 620px;
+}
+
+.hace {
+  position: relative;
+  top: 25%;
+  font-size: 1.2rem;
+  color: white;
+  border: 1px solid white;
+  display: inline-block;
+  border-radius: 290486px;
+  padding: 0.5em 2em;
+  border-width: 2px;
+  margin: 25px 0;
+  width: 250px;
+  letter-spacing: 1px;
+  transition: background-color 500ms, color 500ms;
+  text-decoration: none;
+}
+
+.tap {
+  display: block;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 45px;
+  margin-bottom: 5px;
+}
+
+.hace:hover {
+  color: black;
+  background-color: #fcfafa;
+}
+
+.end {
+  width: 290px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 450px) {
+  .hace {
+    width: 230px;
+    font-size: 1rem;
+  }
+
+  .end {
+    width: 230px;
+    font-size: 0.9rem;
+  }
+}
+
+/* banner 1 component */
+
+.tabla-banner {
+  width: 80%;
+  max-width: 500px;
+}
+
+/* banner zoita  */
+
+.banner-zoita {
+  width: 50%;
+
+  max-width: 600px;
+  margin: 0;
+}

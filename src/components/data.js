@@ -8,7 +8,7 @@ let data = [
   },
   {
     nombre: "TABLA DE ASADO LARGE",
-    medida: "28x55x2cm",
+    medida: "28x50x2cm",
     producto: "tabla",
     precio: 2450,
     image: "tabla-de-asado-large.JPG",
@@ -64,9 +64,9 @@ let data = [
   },
   {
     nombre: "BANDEJA SMALL",
-    medida: "24x40x2cm",
+    medida: "19x35x2cm",
     producto: "bandeja",
-    precio: 2300,
+    precio: 1950,
     image: "bandeja-small.JPG",
   },
   {
@@ -85,7 +85,7 @@ let data = [
   },
   {
     nombre: "CAJA NESPRESSO",
-    medida: "30x40cm",
+    medida: "28x23cm",
     producto: "caja nespresso",
     precio: 4999,
     image: "caja-nespresso.JPG",

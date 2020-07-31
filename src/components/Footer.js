@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <div className="footer" id="footer">
       <img
-        src="./images/blanco+texto.png"
+        src={process.env.PUBLIC_URL + "/images/blanco+texto.png"}
         className="footer-logo"
         alt="zoita wood"
       />

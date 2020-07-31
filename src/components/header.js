@@ -12,8 +12,16 @@ export default function Header() {
 
   return (
     <div className="header">
-      <img src="./images/word.png" alt="logo-word" className="logo-word"></img>
-      <img src="./images/logo.png" alt="logo" className="logo"></img>
+      <img
+        src={process.env.PUBLIC_URL + "/images/word.png"}
+        alt="logo-word"
+        className="logo-word"
+      ></img>
+      <img
+        src={process.env.PUBLIC_URL + "/images/logo.png"}
+        alt="logo"
+        className="logo"
+      ></img>
 
       <div className={clicked ? "navbar drop" : "navbar colapse"}>
         <a className="nav-element" href="#store">

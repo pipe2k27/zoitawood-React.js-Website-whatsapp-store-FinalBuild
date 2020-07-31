@@ -9,11 +9,20 @@ export default function Wood() {
         Usamos siempre las mejores maderas, las mismas que se ultilizan para
         fabricar muebles de alta gama. Conocelas en esta sección.
       </p>
-      <img src="./images/zoita.jpg" className="wood-pic"></img>
-      <img src="./images/guayubira.jpg" className="wood-pic"></img>
-      <img src="./images/lenga.jpg" className="wood-pic"></img>
       <img
-        src="./images/banner-4.jpg"
+        src={process.env.PUBLIC_URL + "/images/zoita.jpg"}
+        className="wood-pic"
+      ></img>
+      <img
+        src={process.env.PUBLIC_URL + "/images/guayubira.jpg"}
+        className="wood-pic"
+      ></img>
+      <img
+        src={process.env.PUBLIC_URL + "/images/lenga.jpg"}
+        className="wood-pic"
+      ></img>
+      <img
+        src={process.env.PUBLIC_URL + "/images/banner-4.jpg"}
         alt="tabla de asado"
         className="tabla-banner2"
         data-aos="fade-up"
@@ -26,7 +35,10 @@ export default function Wood() {
         que cada uno sea perfecto.{" "}
       </p>
 
-      <img src="./images/process.jpg" className="wood-pic"></img>
+      <img
+        src={process.env.PUBLIC_URL + "/images/process.jpg"}
+        className="wood-pic"
+      ></img>
       <a
         href="https://api.whatsapp.com/send?phone=5491168220014&text=Buenas,%20te%20puedo%20hacer%20un%20pedido:%20"
         className="hace order end"

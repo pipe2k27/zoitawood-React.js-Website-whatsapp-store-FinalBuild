@@ -1,3 +1,6 @@
+.store {
+}
+
 .store-box {
   display: flex;
   justify-content: center;
@@ -10,7 +13,7 @@
   width: 900px;
 }
 
-@media (max-width: 928px) {
+@media (max-width: 1000px) {
   .card-holder {
     display: grid;
     justify-items: center;
@@ -20,7 +23,7 @@
   }
 }
 
-@media (max-width: 620px) {
+@media (max-width: 750px) {
   .card-holder {
     display: grid;
     justify-items: center;
