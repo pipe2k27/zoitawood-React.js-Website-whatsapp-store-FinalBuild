@@ -45,7 +45,7 @@ let data = [
     nombre: "PLATO DE ASADO",
     medida: "19x35x2cm",
     producto: "plato",
-    precio: 1200,
+    precio: 1300,
     image: "plato-de-asado.JPG",
   },
   {
